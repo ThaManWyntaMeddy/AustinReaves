@@ -1,75 +1,73 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+h1{
+	text-align: center;
+		background-color:	#FFFFE0;
+}
+.video{
+	text-align: center;
+}
+h2{
+	text-align: center;
+		background-color:	#FFFFE0;
+	border: 50px,solid ,#000000;
+
+}
+.your-centered-div {
+    width: 560px; /* you have to have a size or this method doesn't work */
+    height: 315px;
+    
+    /* positions according to the nearest parent */
+    top: 0; right: 0; /* confuse it i guess */
+    bottom: 0; left: 0;
+    margin: auto; /* make em equal */
+    
+    border: 1px solid red;
+}
+.footer{
+	text-align: center;
+}
+body{
+	background-color:	#FFFFE0;
+}
+#main{
+	text-align: center;
+	border: 10px;
+	font-weight: bolder;
+	text-decoration: underline;
+		background-color:	#FFFFE0;
+}
+body{
+	line-height: 2;
 }
 
-header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+.centerimage{
+	text-align:center;
+	positon:absolute;
+	
 }
-
-header h1 {
-    margin: 0;
+h3{
+	text-align: center;
+	background-color:	#FFFFE0;
 }
+figcaption{
+	text-align: center;
 
-nav ul {
-    list-style: none;
-    padding: 0;
 }
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
+blockquote {
+	text-align: center;
+	font-size: 20px;
 }
+p {
+	text-align: center;
+	font-size: : 25px;
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
 }
-
-section {
-    padding: 2rem;
+figure figcaption{
+text-align: center;
 }
-
-#biography {
-    background: #fff;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 8px;
+.new{
+	text-align:left;
 }
-
-#photos .photo-gallery {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-#photos .photo-gallery img {
-    margin: 10px;
-    width: 200px;
-    height: auto;
-    border-radius: 8px;
-}
-
-#quotes blockquote {
-    background: #333;
-    color: #fff;
-    padding: 10px;
-    margin: 20px 0;
-    border-left: 10px solid #ccc;
-}
-
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+img {
+    display: block;
+    margin: 0 auto;
 }
