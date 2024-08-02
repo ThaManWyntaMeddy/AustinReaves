@@ -14,12 +14,12 @@ h2{
 .your-centered-div {
     width: 560px; /* you have to have a size or this method doesn't work */
     height: 315px;
-    
+
     /* positions according to the nearest parent */
     top: 0; right: 0; /* confuse it i guess */
     bottom: 0; left: 0;
     margin: auto; /* make em equal */
-    
+
     border: 1px solid red;
 }
 .footer{
@@ -42,7 +42,7 @@ body{
 .centerimage{
 	text-align:center;
 	positon:absolute;
-	
+
 }
 h3{
 	text-align: center;
